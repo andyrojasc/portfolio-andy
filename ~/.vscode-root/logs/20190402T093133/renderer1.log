@@ -1,7 +1,0 @@
-[2019-04-02 09:31:58.747] [renderer1] [info] no standard startup: not the explorer viewlet
-[2019-04-02 09:32:05.976] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.LiveServer' took 86% of 1183.211ms, saved PROFILE here: '/tmp/exthost-637741.cpuprofile' [{"id":"gc","total":3882,"percentage":0},{"id":"program","total":148786,"percentage":13},{"id":"ritwickdey.LiveServer","total":1012556,"percentage":86},{"id":"self","total":9468,"percentage":1}]
-[2019-04-02 09:32:52.312] [renderer1] [info] no standard startup: not just one text editor
-[2019-04-02 09:34:12.964] [renderer1] [warning] Aborted onWillSaveTextDocument-event after 1750ms
-[2019-04-02 09:48:29.550] [renderer1] [error] Failed to execute git
-[2019-04-02 09:49:51.005] [renderer1] [warning] Aborted onWillSaveTextDocument-event after 1750ms
-[2019-04-02 09:50:28.020] [renderer1] [warning] Aborted onWillSaveTextDocument-event after 1750ms
