@@ -3,17 +3,20 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
-$roboto-sans: 'Roboto', sans-serif;
-$roboto-slab: 'Roboto Slab', serif;
-$raleway-sans: 'Raleway', sans-serif;
-$pacifico-cursive: 'Pacifico', cursive;
-$font-family: 'PT Sans', sans-serif;
+$roboto-sans: 'Roboto',
+sans-serif;
+$roboto-slab: 'Roboto Slab',
+serif;
+$raleway-sans: 'Raleway',
+sans-serif;
+$pacifico-cursive: 'Pacifico',
+cursive;
+$font-family: 'PT Sans',
+sans-serif;
 $secundary-color: #1bac9c;
-
 //skills
 $background-color: #1a1a1a;
 $progressbar-title-color: #fff;
-
 $red: #c0392b;
 $blue: #1199ff;
 $purple: #9b59b6;
@@ -21,84 +24,91 @@ $orange: #ffa500;
 $green: #27ae60;
 $li-padding: 5px;
 $animation-delay: .7s;
-
 @import "cards";
 @import "skills";
-
-h5{
+h5 {
     line-height: 1.6;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: $roboto-sans;
     font-weight: 700;
 }
 
-.roboto-slab{
+.roboto-slab {
     font-family: $roboto-slab;
     font-weight: 700;
 }
 
-.title-section{
+.title-section {
     font-size: 2.5rem;
 }
 
-.change-color{
+.change-color {
     color: $secundary-color;
 }
 
-.change-color-background{
+.change-color-background {
     background: $secundary-color;
 }
 
-.btn:hover{
+.fab {
+    transition: 0.4s;
+}
+
+.fab:hover {
+    color: #333!important;
+}
+
+.btn:hover {
     background: rgb(19, 133, 119);
 }
 
-.opacity-cv{
+.opacity-cv {
     opacity: 0.7;
 }
 
-.stripe{
+.stripe {
     border-top: 3px solid $secundary-color;
     margin: auto;
     padding-bottom: 3%;
     width: 70px;
 }
 
-.stripe-white{
+.stripe-white {
     border-top: 3px solid #fff;
     margin: auto;
     padding-bottom: 3%;
     width: 70px;
 }
 
-.margin-right{
+.margin-right {
     margin-right: 5.7rem;
 }
 
-.background-portfolio-section{
-    background: rgb(248, 248, 248); 
+.background-portfolio-section {
+    background: rgb(248, 248, 248);
 }
 
-.height-img-participations{
+.height-img-participations {
     height: 155px;
 }
 
-.bg-footer{
+.bg-footer {
     background: $secundary-color;
 }
 
-.color-rc{
+.color-rc {
     color: $secundary-color;
 }
 
-.name-letter{
+.name-letter {
     font-family: $pacifico-cursive;
 }
 
-@media only screen and (max-width: 991px){
-    .margin-right{
+@media only screen and (max-width: 991px) {
+    .margin-right {
         margin-right: 0rem;
     }
 }
