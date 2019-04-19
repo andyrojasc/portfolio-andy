@@ -36,3 +36,5 @@
 [2019-04-19 13:21:39.129] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
 [2019-04-19 13:22:02.378] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
 [2019-04-19 13:22:02.378] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-04-19 13:34:48.594] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":false,"activationEvent":"*"}
+[2019-04-19 13:34:48.594] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension

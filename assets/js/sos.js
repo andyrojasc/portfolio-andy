@@ -5,7 +5,6 @@ function getMobileOperatingSystem() {
         return "Android";
     }
 
-    // iOS detection from: http://stackoverflow.com/a/9039885/177710
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         return "iOS";
     }
@@ -15,8 +14,13 @@ function getMobileOperatingSystem() {
 function DetectAndServe(){
     let os = getMobileOperatingSystem();
     if (os == "Android") {
+        //window.open('https://play.google.com/store/apps/details?id=go.muniorotina&hl=en_US','_blank');
         window.location.href = "https://play.google.com/store/apps/details?id=go.muniorotina&hl=en_US"; 
     } else if (os == "iOS") {
+        //window.open('https://itunes.apple.com/cr/app/municipalidad-de-orotina/id1450196328?mt=8','_blank');
         window.location.href = "https://itunes.apple.com/cr/app/municipalidad-de-orotina/id1450196328?mt=8";
+    } else {
+        //window.open('https://play.google.com/store/apps/details?id=go.muniorotina&hl=en_US','_blank');
+        window.location.href = "https://play.google.com/store/apps/details?id=go.muniorotina&hl=en_US"; 
     }
 }
