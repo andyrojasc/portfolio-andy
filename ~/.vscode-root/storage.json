@@ -1361,5 +1361,19 @@
             "file:///home/andy/Documentos/CV/portfolio"
         ],
         "files2": []
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/andy/Documentos/CV/portfolio",
+            "backupPath": "/home/andy/Documentos/CV/portfolio/~/.vscode-root/Backups/fafba4fc1b88e67ffe78daa2e0717ff8",
+            "uiState": {
+                "mode": 1,
+                "x": 171,
+                "y": 28,
+                "width": 1024,
+                "height": 700
+            }
+        },
+        "openedWindows": []
     }
 }
