@@ -5,7 +5,7 @@ function getMobileOperatingSystem() {
         return "Android";
     }
 
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    if (/iPad|iPhone|Mac|iPod/.test(userAgent) && !window.MSStream) {
         return "iOS";
     }
 
