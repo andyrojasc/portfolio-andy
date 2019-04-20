@@ -38,9 +38,21 @@ h5 {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: $roboto-sans;
     font-weight: 700!important;
+}
+
+.skills-background {
+    background: $background-color;
+    h5 {
+        font-family: $font-family;
+    }
+}
+
+.size-devicons {
+    font-size: 5.8rem!important;
 }
 
 .roboto-slab {
@@ -62,10 +74,6 @@ h2 {
 
 .fab {
     transition: 0.4s;
-}
-
-.fab:hover {
-    color: #333!important;
 }
 
 .btn:hover {
@@ -134,6 +142,14 @@ h2 {
     display: none;
 }
 
+.hover-skills:hover {
+    color: #8af3e7!important;
+}
+
+.hover-skills {
+    transition: 0.4s;
+}
+
 @media only screen and (max-width: 991px) {
     .margin-right {
         margin-right: 0rem;
@@ -150,5 +166,8 @@ h2 {
         display: block;
         left: 0%;
         transform: translate(0px, 0);
+    }
+    .size-devicons {
+        font-size: 5rem!important;
     }
 }
