@@ -29,3 +29,8 @@ $.each(lang, function(language, pourcent) {
     multiply++;
 
 });
+
+function redirect(url) {
+    console.log("object");
+    window.open(url, '_blank');
+}

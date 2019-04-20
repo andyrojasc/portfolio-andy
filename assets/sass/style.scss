@@ -26,6 +26,7 @@ $li-padding: 5px;
 $animation-delay: .7s;
 @import "cards";
 @import "skills";
+@import "animation";
 body {
     overflow-x: hidden;
 }
@@ -37,7 +38,7 @@ h5 {
 h1,
 h2 {
     font-family: $roboto-sans;
-    font-weight: 700;
+    font-weight: 700!important;
 }
 
 .roboto-slab {
