@@ -112,8 +112,43 @@ h2 {
     font-family: $pacifico-cursive;
 }
 
+#triangle-bottomright {
+    width: 0;
+    height: 0px;
+    border-bottom: 75px solid white;
+    border-left: 267px solid transparent;
+    position: absolute;
+    margin-top: -68px;
+    display: none;
+}
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0px;
+    border-bottom: 75px solid white;
+    border-right: 267px solid transparent;
+    position: absolute;
+    margin-top: -68px;
+    display: none;
+}
+
 @media only screen and (max-width: 991px) {
     .margin-right {
         margin-right: 0rem;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    #triangle-bottomright {
+        margin-left: 0%;
+        display: block;
+        left: 50%;
+        transform: translate(-50px, 0);
+    }
+    #triangle-bottomleft {
+        margin-left: 0%;
+        display: block;
+        left: 0%;
+        transform: translate(-50px, 0);
     }
 }
