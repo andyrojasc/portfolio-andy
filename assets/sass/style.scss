@@ -27,7 +27,8 @@ $animation-delay: .7s;
 @import "cards";
 @import "skills";
 @import "animation";
-body {
+body,
+html {
     overflow-x: hidden;
     max-width: 100%;
 }
@@ -117,9 +118,9 @@ h2 {
     width: 0;
     height: 0px;
     border-bottom: 75px solid red;
-    border-left: 267px solid transparent;
+    border-left: 50vw solid transparent;
     position: absolute;
-    margin-top: -68px;
+    margin-top: -73px;
     display: none;
 }
 
@@ -127,9 +128,9 @@ h2 {
     width: 0;
     height: 0px;
     border-bottom: 75px solid white;
-    border-right: 267px solid transparent;
+    border-right: 50vw solid transparent;
     position: absolute;
-    margin-top: -68px;
+    margin-top: -73px;
     display: none;
 }
 
@@ -141,15 +142,13 @@ h2 {
 
 @media only screen and (max-width: 418px) {
     #triangle-bottomright {
-        margin-left: 0%;
         display: block;
         left: 50%;
-        transform: translate(-50px, 0);
+        transform: translate(0px, 0);
     }
     #triangle-bottomleft {
-        margin-left: 0%;
         display: block;
         left: 0%;
-        transform: translate(-50px, 0);
+        transform: translate(0px, 0);
     }
 }
