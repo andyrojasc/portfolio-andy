@@ -29,6 +29,7 @@ $animation-delay: .7s;
 @import "animation";
 body {
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 h5 {
@@ -141,7 +142,7 @@ h2 {
 @media only screen and (max-width: 418px) {
     #triangle-bottomright {
         margin-left: 0%;
-        //display: block;
+        display: block;
         left: 50%;
         transform: translate(-50px, 0);
     }
