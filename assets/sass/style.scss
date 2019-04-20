@@ -26,6 +26,10 @@ $li-padding: 5px;
 $animation-delay: .7s;
 @import "cards";
 @import "skills";
+body {
+    overflow-x: hidden;
+}
+
 h5 {
     line-height: 1.6;
 }
